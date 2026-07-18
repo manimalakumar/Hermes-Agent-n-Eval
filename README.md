@@ -1,4 +1,4 @@
-# Retail Agent: Live Hermes + NVIDIA Demo
+# Retail Agent: Live Agents + LLM Calls Demo
 
 This project demonstrates a retail support job where a customer asks to update the shipping address on a newly placed order.
 
