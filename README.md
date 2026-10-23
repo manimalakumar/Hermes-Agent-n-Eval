@@ -2,7 +2,7 @@
 
 **Did the agent update the correct order—and leave the correct business state behind?**
 
-A small retail support application that connects a customer request to tool execution, persistent SQLite state, and an inspectable audit trace.
+A mini retail support application that connects a customer request to tool execution, persistent SQLite state, and an inspectable audit trace.
 
 ## What to explore
 
@@ -25,7 +25,7 @@ The commands below describe the original workflow. They have not been rerun on a
 
 This project demonstrates a retail support job where a customer asks to update the shipping address on a newly placed order.
 
-It is intentionally small, but the moving pieces are real:
+It is compact by design, but the moving pieces are real:
 
 - Streamlit app with a two-turn customer support workflow | App we want to Eval
 - NVIDIA NIM LLM calls through `ChatNVIDIA` | The brain of the system for customer interaction and agents
