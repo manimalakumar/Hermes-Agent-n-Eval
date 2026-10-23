@@ -1,4 +1,27 @@
-# Retail Agent: Live Agents + LLM Calls Demo
+# Retail Agent and Workflow Evaluation
+
+**Did the agent update the correct order—and leave the correct business state behind?**
+
+A small retail support application that connects a customer request to tool execution, persistent SQLite state, and an inspectable audit trace.
+
+## What to explore
+
+| Path | What it demonstrates |
+| --- | --- |
+| Streamlit application | A two-turn shipping-address update workflow. |
+| Local tests | Deterministic behavior checks without live model calls. |
+| Live evaluation | Model/tool execution followed by database and trace inspection. |
+
+This is a demonstration of evaluating a business workflow. The criteria and runner are available; this README does not claim a measured live pass rate or production readiness.
+
+## Before you run
+
+You need Git, `uv`, and suitable credentials for live model calls. The Hermes path additionally requires a separately installed Hermes CLI and configured provider access. Follow the [Hermes project's installation guidance](https://github.com/NousResearch/hermes-agent) for its prerequisites.
+
+The commands below describe the original workflow. They have not been rerun on a clean machine for this documentation refresh. Live commands can consume provider quota; local tests use a rule-based extractor.
+
+## Workflow and technical instructions
+
 
 This project demonstrates a retail support job where a customer asks to update the shipping address on a newly placed order.
 
@@ -46,11 +69,12 @@ Sample new address:
 From this folder:
 
 ```bash
-cd /<<Path to the project>>/hermes-agents-eval/retail-agent
+git clone https://github.com/manimalakumar/Hermes-Agent-n-Eval.git
+cd Hermes-Agent-n-Eval
 uv sync --extra dev
 ```
 
-Hermes has already been installed on this machine at:
+The original development environment used the Hermes executable at the path below. Install and configure Hermes separately before using the Hermes-dependent commands; this path is not supplied by cloning the repository:
 
 ```bash
 ~/.local/bin/hermes
