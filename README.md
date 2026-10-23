@@ -34,6 +34,19 @@ It is intentionally small, but the moving pieces are real:
 - Live eval runner that verifies database state after LLM/tool execution | The eureka moment!
 - I developed with Hermes agent environemnt and NVIDIA LLM | You can swap with your choice of tools and models
 
+## Stack
+
+| Layer | Technology | Role |
+| --- | --- | --- |
+| User interface | Streamlit | Interactive retail support demo |
+| Agent environment | Hermes | Agent execution and project-local tool integration |
+| Model integration | LangChain `ChatNVIDIA` / Hermes CLI | Two paths for invoking the model |
+| Model provider | NVIDIA NIM | Hosted LLM inference |
+| Business state | SQLite | Persistent customer and order data |
+| Audit trail | SQLite-backed tool events | Records actions for inspection and evaluation |
+| Live evaluation | Custom Python runner | Checks database state and tool traces after agent execution |
+| Local testing | pytest | Tests workflow behavior without live model calls |
+
 ## Scenario
 
 Customer goal: place an order.
