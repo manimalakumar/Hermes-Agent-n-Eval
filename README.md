@@ -49,7 +49,7 @@ It is compact by design, but the moving pieces are real:
 
 ## Scenario
 
-Customer goal: place an order.
+Customer goal: update the shipping address on an existing order.
 
 Business outcome: take an order that can be fulfilled.
 
