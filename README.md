@@ -36,7 +36,7 @@ It is compact by design, but the moving pieces are real:
 - Hermes project-local plugin with retail tools | The Agent environment managing and keeping track to Evaluate
 - SQLite business state and audit trace | The app writes to SQL DB, persistent and attachable memory for agents
 - Live eval runner that verifies database state after LLM/tool execution | The eureka moment!
-- I developed with Hermes agent environemnt and NVIDIA LLM | You can swap with your choice of tools and models
+- This is a personal learning project and is not affiliated with or endorsed by my employer.
 
 ## Stack
 
