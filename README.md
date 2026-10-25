@@ -16,7 +16,7 @@ This is a demonstration of evaluating a business workflow. The criteria and runn
 
 ## Related writing
 
-[Read my article on AI evaluation](https://manimalakumar.substack.com/p/eval-the-new-contract-between-technology) || why evaluation is an organizational capability, with a practical example and four principles for designing effective evaluations.
+[Read my article on AI evaluation](https://manimalakumar.substack.com/p/eval-the-new-contract-between-technology): why evaluation is an organizational capability, with a practical example and four principles for designing effective evaluations.
 
 ## Before you run
 
