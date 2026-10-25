@@ -14,6 +14,10 @@ A mini retail support application that connects a customer request to tool execu
 
 This is a demonstration of evaluating a business workflow. The criteria and runner are available; this README does not claim a measured live pass rate or production readiness.
 
+## Related writing
+
+[Read my article on AI evaluation](https://manimalakumar.substack.com/p/eval-the-new-contract-between-technology) || why evaluation is an organizational capability, with a practical example and four principles for designing effective evaluations.
+
 ## Before you run
 
 You need Git, `uv`, and suitable credentials for live model calls. The Hermes path additionally requires a separately installed Hermes CLI and configured provider access. Follow the [Hermes project's installation guidance](https://github.com/NousResearch/hermes-agent) for its prerequisites.
