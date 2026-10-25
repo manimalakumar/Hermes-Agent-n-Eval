@@ -26,17 +26,7 @@ The commands below describe the original workflow. They have not been rerun on a
 
 ## Workflow and technical instructions
 
-
-This project demonstrates a retail support job where a customer asks to update the shipping address on a newly placed order.
-
-It is compact by design, but the moving pieces are real:
-
-- Streamlit app with a two-turn customer support workflow | App we want to Eval
-- NVIDIA NIM LLM calls through `ChatNVIDIA` | The brain of the system for customer interaction and agents
-- Hermes project-local plugin with retail tools | The Agent environment managing and keeping track to Evaluate
-- SQLite business state and audit trace | The app writes to SQL DB, persistent and attachable memory for agents
-- Live eval runner that verifies database state after LLM/tool execution | The eureka moment!
-- This is a personal learning project and is not affiliated with or endorsed by my employer.
+This project demonstrates a retail support job where a customer requests to update the shipping address on a newly placed order.
 
 ## Stack
 
